@@ -6,10 +6,10 @@
  * 
  */
 
-require __DIR__ . '/../../../../lib/OAuth2.php';
-require __DIR__ . '/../../../../lib/IOAuth2Storage.php';
-require __DIR__ . '/../../../../lib/IOAuth2GrantCode.php';
-require __DIR__ . '/../../../../lib/IOAuth2RefreshTokens.php';
+require_once __DIR__ . '/../../../../lib/OAuth2.php';
+require_once __DIR__ . '/../../../../lib/IOAuth2Storage.php';
+require_once __DIR__ . '/../../../../lib/IOAuth2GrantCode.php';
+require_once __DIR__ . '/../../../../lib/IOAuth2RefreshTokens.php';
 
 /**
  * WARNING: This example file has not been kept up to date like the PDO example has.

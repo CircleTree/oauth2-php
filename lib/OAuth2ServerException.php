@@ -5,6 +5,7 @@
  * an error.
  *
  */
+if (! class_exists('OAuth2ServerException')) :
 class OAuth2ServerException extends Exception {
 	
 	protected $httpCode;
@@ -80,3 +81,4 @@ class OAuth2ServerException extends Exception {
 		return json_encode($this->errorData);
 	}
 }
+endif;

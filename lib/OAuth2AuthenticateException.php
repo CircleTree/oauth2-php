@@ -8,6 +8,7 @@
  *
  * @ingroup oauth2_error
  */
+if (! class_exists('OAuth2AuthenticateException')) :
 class OAuth2AuthenticateException extends OAuth2ServerException {
 	
 	protected $header;
@@ -53,3 +54,4 @@ class OAuth2AuthenticateException extends OAuth2ServerException {
 		header($this->header);
 	}
 }
+endif;
